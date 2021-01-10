@@ -4,13 +4,15 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |product|
     if product[:item] == name
       return product
+    end
     binding.pry
   end
+end
   # Implement me first!
   #
   # Consult README for inputs and outputs
 
-end
+
 
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
