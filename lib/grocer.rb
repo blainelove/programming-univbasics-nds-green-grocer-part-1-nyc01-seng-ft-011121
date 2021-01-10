@@ -6,7 +6,6 @@ def find_item_by_name_in_collection(name, collection)
       return product
     end
   end
-  return nil
 end
   # Implement me first!
   #
