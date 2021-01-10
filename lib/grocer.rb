@@ -1,6 +1,8 @@
 require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
+  collection.each do |product|
+    binding.pry
   # Implement me first!
   #
   # Consult README for inputs and outputs
